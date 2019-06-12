@@ -72,13 +72,12 @@
 [plugins]
 [profiles]
   [[default]]
+    background_color = "#282828"
     cursor_color = "#aaaaaa"
+    foreground_color = "#ebdbb2"
     icon_bell = False
     scrollbar_position = hidden
     show_titlebar = False
-    disable_real_transparency = True
-    background_type = image
-    background_image = /home/icke/Pictures/Wallpapers/black_background.jpg
   [[Neues Profil]]
     cursor_color = "#aaaaaa"
     custom_command = top
