@@ -1,11 +1,30 @@
 [global_config]
+  tab_position = hidden
   enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   suppress_multiple_term_dialog = True
-  tab_position = hidden
 [keybindings]
-  hide_window = F12
   split_vert = <Primary><Shift>s
   toggle_scrollbar = None
+  hide_window = F12
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_color = "#fdf6e3"
+    background_darkness = 0.95
+    cursor_blink = False
+    cursor_shape = underline
+    cursor_fg_color = "#282828"
+    cursor_bg_color = "#ebdbb2"
+    cursor_color_default = False
+    font = Hack NF 22
+    foreground_color = "#657b83"
+    show_titlebar = False
+    scrollbar_position = hidden
+    use_system_font = False
+  [[Neues Profil]]
+    exit_action = hold
+    use_custom_command = True
+    custom_command = top
 [layouts]
   [[default]]
     [[[child1]]]
@@ -70,16 +89,3 @@
       type = Terminal
       uuid = 7d2c0858-61ec-489a-9ff7-e20a8111e792
 [plugins]
-[profiles]
-  [[default]]
-    background_color = "#282828"
-    cursor_color = "#aaaaaa"
-    foreground_color = "#ebdbb2"
-    icon_bell = False
-    scrollbar_position = hidden
-    show_titlebar = False
-  [[Neues Profil]]
-    cursor_color = "#aaaaaa"
-    custom_command = top
-    exit_action = hold
-    use_custom_command = True
